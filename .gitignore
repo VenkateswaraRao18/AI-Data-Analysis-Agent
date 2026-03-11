@@ -2,7 +2,7 @@
 backend/venv/
 backend/__pycache__/
 backend/uploaded_datasets/
-backend/reports/
+# backend/reports/
 
 # Frontend
 frontend/node_modules/

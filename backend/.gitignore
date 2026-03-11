@@ -36,7 +36,7 @@ Thumbs.db
 uploaded_datasets/
 
 # Generated reports
-reports/
+# reports/
 
 # Model files
 *.pt
