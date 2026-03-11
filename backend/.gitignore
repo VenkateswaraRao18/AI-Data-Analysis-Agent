@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Uploaded datasets
+uploaded_datasets/
+
+# Generated reports
+reports/
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# HuggingFace cache
+.cache/
+huggingface/
+hf_cache/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Local config files
+config.local.py

@@ -1,0 +1,11 @@
+pip install pandas
+pip install numpy
+pip install scikit-learn
+pip install matplotlib
+pip install seaborn
+pip install fastapi
+pip install uvicorn
+pip install transformers
+pip install torch
+pip install accelerate
+pip install python-multipart
