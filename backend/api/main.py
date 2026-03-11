@@ -50,6 +50,7 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 import shutil
+from fastapi.staticfiles import StaticFiles
 import os
 
 from agent.executor import DataAnalysisAgent
