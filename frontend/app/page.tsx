@@ -33,7 +33,10 @@ export default function Home() {
       setTimeout(() => {
         setLoading(false)
         setStatus("Report generated successfully 🎉")
-        setReportUrl("http://127.0.0.1:8000/reports/data_report.md")
+        // setReportUrl("http://127.0.0.1:8000/reports/data_report.md")
+         setReportUrl("https://ai-data-analysis-agent-tgoc.onrender.com/reports/data_report.md")
+        
+
       }, 2000)
 
     } catch (error) {
