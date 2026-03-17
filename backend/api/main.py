@@ -57,9 +57,12 @@ from agent.executor import DataAnalysisAgent
 
 app = FastAPI()
 app.mount("/reports", StaticFiles(directory="reports"), name="reports")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://ai-data-analysis-agent-lra1kfcgx-venkateswararao18s-projects.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
