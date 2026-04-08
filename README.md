@@ -145,7 +145,7 @@ The architecture remains fully compatible with **local Hugging Face models**, an
 # Installation
 
 ## Clone the repository
-git clone https://github.com/YOUR_USERNAME/ai-data-analysis-agent.git
+git clone https://github.com/venkateswararao18/ai-data-analysis-agent.git
 
 cd ai-data-analysis-agent
 
@@ -312,7 +312,7 @@ Planned enhancements:
 
 # Screenshots
 
-(Add screenshots of your UI here after deployment)
+
 
 Example sections:
 
